@@ -10,6 +10,6 @@ node{
     }
     
     stage("Run container"){
-        sh "ssh root@${IP} docker run -d --name Flaskex -p 6000:4000 vovatran/flaskex"
+        sh "ssh root@${IP} docker run -d --name Flaskex -p 6000:4000 vovatran/flaskex_centos7"
     }
 }
